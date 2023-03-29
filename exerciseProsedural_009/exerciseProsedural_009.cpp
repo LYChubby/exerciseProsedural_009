@@ -31,6 +31,6 @@ int main() {
 		cout << "Nilai Rata - Rata Anda : " << rerata(nilm[i], nilb[i]) << endl;
 		cout << "Status Kelulusan Anda : " << hasil(rerata(nilm[i], nilb[i]), nilm[i]) << endl;
 
-
+		kelulusan[i] = hasil(rerata(nilm[i], nilb[i]), nilm[i]);
 	}
 }
