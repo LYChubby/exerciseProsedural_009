@@ -19,4 +19,18 @@ int main() {
 	int nilb[20], nilm[20];
 	int diterima = 0, ditolak = 0;
 
-	
+	for (int i = 0; i < 20; i++) {
+
+		cout << "\nMasukkan Nama Ke- " << (i + 1) << ": " << endl;
+		cin >> nama[i];
+		cout << "Masukkan Nilai Matematika : " << endl;
+		cin >> nilm[i];
+		cout << "Masukkan Nilai Bahasa Inggris : " << endl;
+		cin >> nilb[i];
+
+		cout << "Nilai Rata - Rata Anda : " << rerata(nilm[i], nilb[i]) << endl;
+		cout << "Status Kelulusan Anda : " << hasil(rerata(nilm[i], nilb[i]), nilm[i]) << endl;
+
+
+	}
+}
