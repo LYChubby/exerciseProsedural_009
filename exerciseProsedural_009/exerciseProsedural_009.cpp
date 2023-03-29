@@ -32,5 +32,19 @@ int main() {
 		cout << "Status Kelulusan Anda : " << hasil(rerata(nilm[i], nilb[i]), nilm[i]) << endl;
 
 		kelulusan[i] = hasil(rerata(nilm[i], nilb[i]), nilm[i]);
+
+		if (hasil(rerata(nilm[i], nilb[i]), nilm[i]) == "Diterima") {
+			diterima++;
+		}
+		else {
+			ditolak++;
+		}
 	}
+
+	cout << "\nNama" << "\tStatus" << endl;
+	for (int i = 0; i < 20; i++) {
+		cout << nama[i] << "\t" << kelulusan[i] << endl;
+	}
+	
+
 }
