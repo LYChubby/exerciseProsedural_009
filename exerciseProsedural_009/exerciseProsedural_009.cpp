@@ -14,3 +14,9 @@ string hasil(float r, float m) {
 	}
 }
 
+int main() {
+	string nama[20], kelulusan[20];
+	int nilb[20], nilm[20];
+	int diterima = 0, ditolak = 0;
+
+	
