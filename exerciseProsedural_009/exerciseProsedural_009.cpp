@@ -41,10 +41,14 @@ int main() {
 		}
 	}
 
-	cout << "\nNama" << "\tStatus" << endl;
+	cout << "\nNama" << "\t\tStatus" << endl;
 	for (int i = 0; i < 20; i++) {
-		cout << nama[i] << "\t" << kelulusan[i] << endl;
+		cout << nama[i] << "\t\t" << kelulusan[i] << endl;
 	}
 	
+	cout << "\nJumlah Kandidat Yang Diterima : " << diterima << endl;
+	cout << "Jumlah Kandidat Yang Tidak Diterima : " << ditolak << endl;
+
+	return 0;
 
 }
